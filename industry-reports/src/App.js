@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import Equality from './components/Equality';
-
 class App extends Component {
   render() { 
       const equality = () => {
@@ -21,6 +20,4 @@ class App extends Component {
       </React.Fragment>
     );
   }
-}
- 
-export default App;
+  export default App;
