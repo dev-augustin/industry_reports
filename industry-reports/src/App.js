@@ -1,13 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Kev_Pg12 from './components/Kev_Pg12';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <Kev_Pg12 />
       </header>
+
+
+
+
     </div>
   );
 }
