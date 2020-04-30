@@ -1,10 +1,10 @@
 import React from 'react';
 
-class Kev_Pg12 extends React.Component {
+class KevPg12 extends React.Component {
     constructor(props) {
         super(props);
         this.state = { 
-
+            
          };
         }
         
@@ -20,11 +20,7 @@ class Kev_Pg12 extends React.Component {
                     </h2>
                     <p id="kev-paragraph">  Bots have many useful purposes, including helping search engines find content. Because AI is being designed to mimic human behavior in online conversations, detecting those online bots that are weaponized to spread disinformation in political discourse could become more difficult. Further studies have demonstrated that bots have and continue to be used to manipulate the media in countries
                     across the world to interfere with the outcomes of democratic elections.(35)
-
-                    <br/>
-                    <br/>
-                    <br/>
-
+                    <br />
                     The rights around political participation are referenced, for example, in the right to
                     self-determination and the right to equal participation in political and public affairs in
                     the ICCPR. Viewed through this human rights lens, the co-opted use of an automated
@@ -39,4 +35,4 @@ class Kev_Pg12 extends React.Component {
     }
 }
 
-export default Kev_Pg12;
+export default KevPg12;
