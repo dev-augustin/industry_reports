@@ -3,6 +3,8 @@ import './App.css';
 import Equality from './components/Equality';
 import Privacy from './components/Privacy';
 import Political from './components/Political';
+import Freedom from './components/Freedom';
+import Disability from './components/Disability';
 
 
 class App extends Component {
@@ -42,6 +44,10 @@ class App extends Component {
           return <Privacy />;
         } else if(this.state.political === true){
           return <Political />
+        } else if(this.state.freedom === true){
+          return <Freedom />
+        } else if(this.state.disability === true){
+          return <Disability />
         }
         
       }
@@ -105,12 +111,11 @@ class App extends Component {
       <div className="topic-box">
         
         <div id='equality' > <h1 onClick={() => equality()} > equality</h1> </div>
-        <div id='political' > political <h1 onClick={() => political()} > political</h1> </div>
-        <div id='privacy' > privacy <h1 onClick={() => privacy()} > privacy</h1> </div>
-        <div id='freedom' > freedom <h1 onClick={() => freedom()} > freedom</h1> </div>
-        <div id='disability' > disability <h1 onClick={() => disability()} > disabilty</h1> </div>
+        <div id='political' > <h1 onClick={() => political()} > political</h1> </div>
+        <div id='privacy' > <h1 onClick={() => privacy()} > privacy</h1> </div>
+        <div id='freedom' > <h1 onClick={() => freedom()} > freedom</h1> </div>
+        <div id='disability' > <h1 onClick={() => disability()} > disabilty</h1> </div>
       </div>
-      <h1> About </h1>
       </React.Fragment>
     );
     
