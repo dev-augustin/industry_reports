@@ -1,5 +1,6 @@
 import React from 'react';
-import MikePoliticalSlide from '../images/MikePoliticalSlide.jpg'
+// @ts-ignore
+import MikePoliticalSlide from '../assets/MikePoliticalSlide.jpg'
 import '../style/PoliticalPg12.css';
 
 class Political extends React.Component {
