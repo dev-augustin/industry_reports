@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Kev_Pg12 extends React.Component {
+class Political extends React.Component {
     constructor(props) {
         super(props);
         this.state = { 
@@ -10,10 +10,10 @@ class Kev_Pg12 extends React.Component {
     render() {
         return (
             <div>
-                <h2> Hello Class </h2>
+                <h2> Insert Kevins Program here </h2>
             </div>
         );
     }
 }
 
-export default Kev_Pg12;
+export default Political;
