@@ -1,15 +1,19 @@
 import React from 'react';
+import MikePoliticalSlide from '../images/MikePoliticalSlide.jpg'
 
-class KevPg12 extends React.Component {
+class PoliticalPg12 extends React.Component {
     constructor(props) {
         super(props);
         this.state = { 
-            isClicked: false,
+            equality: false,
+            privacy: false,
+            political: false,
+            freedom: false,
+            disability: false
          };
         }
         
         render() {
-
                 // if (this.state.)
                 //two functions one to check is this.state.click is full ret null 
                 // 2nd func cahnges state --> this.setState: true;
@@ -35,9 +39,10 @@ class KevPg12 extends React.Component {
                     service rather than to protect users’ right to political participation. Further exploration
                     would be needed to see how human rights principles could inform contractual disputes or litigation in this context.</p>
 
+                    <PoliticalPg12 />
             </div>
         );
     }
 }
 
-export default KevPg12;
+export default PoliticalPg12;
