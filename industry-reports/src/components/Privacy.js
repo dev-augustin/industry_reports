@@ -1,13 +1,13 @@
 import React from 'react'
 
 export default function Privacy() {
-    const privacy = () => {
-        document.getElementById('main').innerHTML = "privacy";
-      }
+    // const privacy = () => {
+    //     document.getElementById('main').innerHTML = "privacy";
+    //   }
     return (
-        <div id="privacy-box">
+        <div className="main-box">
             <div>
-                <img id="privacy-image" src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1044&q=80"></img>
+                <img id="privacy-image" src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1044&q=80" alt="privacy"></img>
             </div>
             <div>
                 <h1>Privacy</h1>

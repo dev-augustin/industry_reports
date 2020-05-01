@@ -1,10 +1,10 @@
 .main-poli-box{
-    display: grid;
+    /* display: grid;
     grid-template-columns: 50% 50%;
-    width: 90%;
+    width: 90%; */
     /* needs a measurement and a type */
-    border: 2px solid;
-    border-color: black;
+    /* border: 2px solid;
+    border-color: black; */
     background-color: rgba(0, 255, 255, 0.116);
 }
 
@@ -19,9 +19,9 @@
 
 #side-pg-div{
     font-family: 'Lusitana', serif;
-    font-size: xx-large;
+    font-size: large;
 }
 
 #kev-paragraph{
-    font-size: large;
+    font-size: medium;
 }

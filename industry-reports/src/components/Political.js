@@ -1,7 +1,6 @@
 import React from 'react';
-// @ts-ignore
 import MikePoliticalSlide from '../assets/MikePoliticalSlide.jpg'
-import '../style/PoliticalPg12.css';
+// import '../style/PoliticalPg12.css';
 
 class Political extends React.Component {
     constructor(props) {
@@ -17,7 +16,7 @@ class Political extends React.Component {
                 // 2nd func cahnges state --> this.setState: true;
 
         return (
-            <div className="main-poli-box">
+            <div className="main-box">
               <div>  
                   <img className="poli-image" src={ MikePoliticalSlide } alt="political-pic"/>
               </div>

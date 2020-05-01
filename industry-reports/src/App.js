@@ -114,7 +114,7 @@ class App extends Component {
         <div id='political' > <h1 onClick={() => political()} > political</h1> </div>
         <div id='privacy' > <h1 onClick={() => privacy()} > privacy</h1> </div>
         <div id='freedom' > <h1 onClick={() => freedom()} > freedom</h1> </div>
-        <div id='disability' > <h1 onClick={() => disability()} > disabilty</h1> </div>
+        <div id='disability' > <h1 onClick={() => disability()} > disability</h1> </div>
       </div>
       </React.Fragment>
     );
