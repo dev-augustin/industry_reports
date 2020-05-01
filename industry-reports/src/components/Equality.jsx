@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../assets/placeholder-image.jpg';
+import image from '../Assets/placeholder-image.jpg';
 
 const Equality = () => {
     return ( 

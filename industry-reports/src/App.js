@@ -3,6 +3,7 @@ import './App.css';
 import Equality from './components/Equality';
 import Privacy from './components/Privacy'
 import Disability from './components/Disability';
+import Freedom from './components/Freedom'
 
 
 class App extends Component {
@@ -44,7 +45,8 @@ class App extends Component {
           return <Privacy />;
         }else if(this.state.disability === true){
           return <Disability />;
-        
+        }else if(this.state.freedom === true){
+          return <Freedom />;
       }}
       
     const equality = () => {
@@ -108,7 +110,7 @@ class App extends Component {
         <div id='equality' > <h1 onClick={() => equality()} > equality</h1> </div>
         <div id='political' ><h1 onClick={() => equality()} > political</h1> </div>
         <div id='privacy' > privacy <h1 onClick={() => privacy()} > privacy</h1> </div>
-        <div id='freedom' > freedom </div>
+        <div id='freedom' > <h1 onClick={() => freedom()}>freedom </h1></div>
         <div id='disability' > <h1 onClick={() => disability()} >disability</h1> </div>
       </div>
       <h1> About </h1>
