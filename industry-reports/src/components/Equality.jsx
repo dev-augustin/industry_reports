@@ -1,4 +1,5 @@
 import React from 'react';
+// @ts-ignore
 import image from '../assets/placeholder-image.jpg';
 
 const Equality = () => {
