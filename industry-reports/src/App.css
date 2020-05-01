@@ -4,6 +4,7 @@
   border: black 2px solid;
   height: 50%;
   width: 90%;
+  margin: 0 auto;
 
 }
 
@@ -12,8 +13,12 @@
   grid-template-columns: 50% 50%;
   border: black 2px solid;
   width: 90%;
+  margin: 0 auto;
 }
-
+#main{
+  /* margin-left: 50%; */
+  text-align: center;
+}
 #equality {
   border: solid 1px red;
 }
@@ -33,11 +38,16 @@
 #disability {
   border: solid 1px red;
 }
-#privacy-box{
+/* #privacy-box{
   display: grid;
   grid-template-columns: 50% 50%;
   border: black solid 2px;
   width: 90%;
+} */
+
+#equality-image{
+  height: 100%;
+  width: 95%;
 }
 #privacy-image{
   height: 100%;
@@ -50,4 +60,18 @@
 #freedom-image{
   height: 100%;
   width: 95%;
+}
+
+.poli-image{
+  height: 100%;
+  width: 95%;
+}
+
+.kev-title-politic{
+  font-size: 34pt;
+}
+
+#side-pg-div{
+  font-family: 'Lusitana', serif;
+  font-size: large;
 }
