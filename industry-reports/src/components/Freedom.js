@@ -1,11 +1,11 @@
 import React from 'react'
-import image from '../Assets/newImage.png'
+import image from '../assets/Disability1.jpg'
 
 export default function Freedom(props) {
     return (
         <div className='main-box' >
         <div>
-        <img id='image' src={image} height=alt='science'/>
+        <img id='freedom-image' src={image} alt='science'/>
         </div>
         <div>
         <h1 id ='something'> FREEDOM OF EXPRESSION </h1>

@@ -1,28 +1,28 @@
-// import React from 'react'
+import React from 'react'
 
-// const Privacy = (props) => {
-//     return(
-//         <button onClick={props}> Click Privacy</button>
-//     )
-// }
-
-// export default Privacy;
-
-import React, { Component } from 'react'
-
-export default class Privacy extends Component {
-    handleClick(){
-        console.log('Clicking Privacy')
-    }
-    
-    render() {
-        return (
+export default function Privacy() {
+    // const privacy = () => {
+    //     document.getElementById('main').innerHTML = "privacy";
+    //   }
+    return (
+        <div className="main-box">
             <div>
-               <h1 onClick={this.handleClick}> Click Privacy</h1> 
-               <p> 
-        As mentioned above, bias and discrimination have become central topics for those concerned with the governance and social impact of AI systems.20 A number of high profile studies have demonstrated that, as in the case of detecting skin color, certain AI systems are inherently discriminatory. Alarming reports have detailed how discrim-inatory algorithms are already deployed in the justice system, wherein judges use these tools for sentencing that purport to predict the likelihood a criminal defendant will reoffend 
-      </p>
+                <img id="privacy-image" src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1044&q=80" alt="privacy"></img>
             </div>
-        )
-    }
+            <div>
+                <h1>Privacy</h1>
+                <p>Privacy has long been a major concern for a broad field that includes government,
+                business, academia, and civil society organizations. For example, there has been a
+                surge in interest from developers and engineers to follow privacy-by-design36 principles, which demonstrate how norms can be incorporated at the systems-design level.
+                Conducting a privacy impact assessment for technological deployments is an established tool for privacy compliance. Yet we already see tensions around the human
+                right to privacy and AI development.</p>
+                <p>For instance, Stanford University researchers trained a deep neural network to “predict” the sexual orientation of their subjects, without obtaining consent, using a set of
+                images collected from online dating websites.37 Beyond various methodological shortcomings, the research demonstrated how a disregard for privacy rights increases the
+                risks of algorithmic surveillance, where data that is collected and analyzed threatens
+                to reveal personal information about users. This can put individuals and groups at risk,
+                particularly those living under regimes that would use such information to repress and
+                discriminate.</p>
+            </div>
+        </div>
+    )
 }
