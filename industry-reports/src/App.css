@@ -1,0 +1,35 @@
+.topic-box {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  border: black 2px solid;
+  height: 50%;
+  width: 90%;
+
+}
+
+.main-box {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: black 2px solid;
+  width: 90%;
+}
+
+#equality {
+  border: solid 1px red;
+}
+
+#political {
+  border: solid 1px red;
+}
+
+#privacy {
+  border: solid 1px red;
+}
+
+#freedom {
+  border: solid 1px red;
+}
+
+#disability {
+  border: solid 1px red;
+}

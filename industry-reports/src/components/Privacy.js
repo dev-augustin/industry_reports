@@ -1,6 +1,9 @@
 import React from 'react'
 
 export default function Privacy() {
+    const privacy = () => {
+        document.getElementById('main').innerHTML = "privacy";
+      }
     return (
         <div>
             <h1>Privacy</h1>
