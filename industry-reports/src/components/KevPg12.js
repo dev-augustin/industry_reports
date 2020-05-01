@@ -4,16 +4,21 @@ class KevPg12 extends React.Component {
     constructor(props) {
         super(props);
         this.state = { 
-            
+            isClicked: false,
          };
         }
         
         render() {
-            const political = () => {
-                console.log('Political tip')
-            }
+
+                // if (this.state.)
+                //two functions one to check is this.state.click is full ret null 
+                // 2nd func cahnges state --> this.setState: true;
+
         return (
-            <div>
+            <div className="main-poli-box">
+                <div>
+                    <img id="poli-image" src={""} alt="political-pic"/>
+                </div>
                 <h2 className="kev-title-politic"> POLITICAL PARTICIPATION </h2>
                     <h2 id="side-pg-div"> Platforms are more likely to remove bots because they violate their terms of
                     service rather than to protect users’ right to political participation. 
