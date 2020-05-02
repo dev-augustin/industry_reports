@@ -106,15 +106,15 @@ class App extends Component {
       
       <React.Fragment>
         
-      <h1 id="main"> A HUMAN RIGHTS FRAME FOR AI RISKS AND HARM </h1>
+      <h1 id="main-heading"> A HUMAN RIGHTS FRAME FOR AI RISKS AND HARM </h1>
       {checker()}
       <div className="topic-box">
         
-        <div id='equality' > <h1 onClick={() => equality()} > equality</h1> </div>
-        <div id='political' > <h1 onClick={() => political()} > political</h1> </div>
-        <div id='privacy' > <h1 onClick={() => privacy()} > privacy</h1> </div>
-        <div id='freedom' > <h1 onClick={() => freedom()} > freedom</h1> </div>
-        <div id='disability' > <h1 onClick={() => disability()} > disability</h1> </div>
+        <div id='equality' > <h1 onClick={() => equality()} > Equality</h1> </div>
+        <div id='political' > <h1 onClick={() => political()} > Political</h1> </div>
+        <div id='privacy' > <h1 onClick={() => privacy()} > Privacy</h1> </div>
+        <div id='freedom' > <h1 onClick={() => freedom()} > Freedom</h1> </div>
+        <div id='disability' > <h1 onClick={() => disability()} > Disability</h1> </div>
       </div>
       </React.Fragment>
     );
