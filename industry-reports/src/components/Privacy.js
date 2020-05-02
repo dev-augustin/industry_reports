@@ -11,6 +11,9 @@ export default function Privacy() {
             </div>
             <div>
                 <h1>Privacy</h1>
+                <p>If AI developers treat privacy not as an ehical preference
+                but as a fundamental human right, it would strengthen the privacy
+                considerations that already exist in industry norms and technicaal standards.</p>
                 <p>Privacy has long been a major concern for a broad field that includes government,
                 business, academia, and civil society organizations. For example, there has been a
                 surge in interest from developers and engineers to follow privacy-by-design36 principles, which demonstrate how norms can be incorporated at the systems-design level.
