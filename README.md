@@ -10,7 +10,9 @@
 
 ### Our website is unique because it uses conditional rendering to display information depending on the topic you choose.
 
-### Daquan - Responsible for the Wireframe, the Equality section.
+### Daquan - Responsible for the Wireframe and the Equality section.
 ### Kevin - Responsible for the Political section.
 ### Rosy - Responsible for the Disability section and the Freedom section and was the groups leader.
 ### Lawrence - Responsible for the Privacy section and the README.
+
+### Information taken from https://datasociety.net/library/governing-artificial-intelligence/
