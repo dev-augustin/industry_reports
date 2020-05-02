@@ -24,7 +24,7 @@ export default function Privacy() {
                 </p>
 
                 <p id="paragraph-2">For instance, Stanford University researchers trained a deep neural network to “predict” the sexual orientation of their subjects, without obtaining consent, using a set of
-                images collected from online dating websites.37 Beyond various methodological shortcomings, the research demonstrated how a disregard for privacy rights increases the
+                images collected from online dating websites. Beyond various methodological shortcomings, the research demonstrated how a disregard for privacy rights increases the
                 risks of algorithmic surveillance, where data that is collected and analyzed threatens
                 to reveal personal information about users. This can put individuals and groups at risk,
                 particularly those living under regimes that would use such information to repress and

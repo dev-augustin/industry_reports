@@ -8,7 +8,7 @@ export default function Disability(props) {
             <img id='disability-image' src={image} alt='science'/>
         </div>
         <div>
-        <h1 id ='disability-heading'> DISABILITY RIGHTS APPROACH AND ACCESSIBLE DESIGN</h1>
+        <h1 id ='disability-heading'> Disability Rigths Approach and Accessible Design</h1>
         <h3 id='disabiltiy-subheading'>
             Disability rights have become emblematic of how technological development increases the risk to vulnerable groups and present a clear opportunity to enhance human rights.
         </h3>
