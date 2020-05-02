@@ -5,6 +5,7 @@
   border-bottom: gray 2px solid;
   border-left: gray 2px solid;
   border-right: gray 2px solid;
+  background-color: rgba(255, 232, 127, 0.164);
   height: 50%;
   width: 90%;
   margin: 0 auto;
@@ -15,11 +16,13 @@
   display: grid;
   grid-template-columns: 50% 50%;
   border: gray 2px solid;
-  /* border-top: black 2px dotted;
-  border-right: black 2px dotted; */
   width: 90%;
+  background-color: #7c795d15;
+  /* centers the page at margin 0 auto */
+  /* auto divides up the left and right side of the page */
   margin: 0 auto;
 }
+
 #main-heading{
   /* margin-left: 50%; */
   text-align: center;
@@ -36,98 +39,63 @@
   font-weight: 100;
 }
 #disability{
+  /* cannot take another border-right as the above as it renders the particular box to appear to have two borders instead of one */
   text-align: center;
   color: #7c795d; 
   font-family: 'Source Sans Pro', sans-serif; 
   font-size: 15px; 
   font-weight: 100;
 }
-/* #political {
-  border-right: solid 1px gray;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 200;
-  font-style: regular;
-  text-align: center;
-}
-
-#privacy {
-  border-right: solid 1px gray;
-}
-
-#freedom {
-  border-right: solid 1px gray;
-} */
-
-/* #disability {
-  border: solid 1px gray;
-} */
-/* #privacy-box{
-  display: grid;
-  grid-template-columns: 50% 50%;
-  border: black solid 2px;
-  width: 90%;
-} */
 
 #equality-image{
-  height: 400px;
-  width: 600px;
+  height: 100%;
+  width: 95%;
   padding:1px;
- 
 }
 #privacy-image{
-  height: 400px;
-  width: 600px;
+  height: 100%;
+  width: 95%;
   padding:1px;
 }
 #disability-image{
-  height: 480px;
-  width: 600px;
-  /* padding: 10px; */
+  height: 100%;
+  width: 95%;
   padding:1px;
-
 }
 #freedom-image{
-  height: 430px;
-  width: 600px;
+  height: 100%;
+  width: 95%;
   padding:1px;
-  /* border-right: 1px gray solid; */
 }
 
 .poli-image{
-  height: 400px;
-  width: 600px;
+  height: 100%;
+  width: 95%;
   padding:1px;
 }
 
-.kev-title-politic{
-  font-size: 34pt;
-}
 
-#side-pg-div{
-  font-family: 'Lusitana', serif;
-  font-size: large;
-}
-
-#disability-heading, #freedom-heading{
+#disability-heading, #freedom-heading, #political-heading, #privacy-heading, #disability-heading, #equality-heading{
  
   text-align: center; 
   color: #7c795d; 
   font-family: 'Source Sans Pro', sans-serif; 
-  font-size: 20px; 
+  font-size: 34px; 
   font-weight: medium; margin: 10px;
 
 }
-#freedom-subheading, #disabiltiy-subheading{
+#freedom-subheading, #disabiltiy-subheading, #political-subheading, #equality-subheading, #privacy-subheading{
 
-  font-size: 18px; 
-  font-weight: 300; 
+  font-size: x-large; 
+  font-weight: 900; 
+  font-family: 'Lusitana', serif;
   color: #f3a813; 
 }
 
 #paragraph-1, #paragraph-2{
  
    color: #4c4a37; 
-   font-family: 'Source Sans Pro', sans-serif; font-size: 18px; 
+   font-family: Georgia, 'Times New Roman', Times, serif; font-size: 21.5px; font-weight: 500;
 }
 
 
