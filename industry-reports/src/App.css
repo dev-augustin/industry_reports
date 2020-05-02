@@ -1,7 +1,10 @@
+
 .topic-box {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
-  border: black 2px solid;
+  border-bottom: gray 2px solid;
+  border-left: gray 2px solid;
+  border-right: gray 2px solid;
   height: 50%;
   width: 90%;
   margin: 0 auto;
@@ -11,33 +14,53 @@
 .main-box {
   display: grid;
   grid-template-columns: 50% 50%;
-  border: black 2px solid;
+  border: gray 2px solid;
+  /* border-top: black 2px dotted;
+  border-right: black 2px dotted; */
   width: 90%;
   margin: 0 auto;
 }
-#main{
+#main-heading{
   /* margin-left: 50%; */
   text-align: center;
+  color: #7c795d; 
+  font-family: 'Source Sans Pro', sans-serif; 
+  font-size: 38px; font-weight: 600; 
 }
-#equality {
-  border: solid 1px red;
+#equality, #political, #privacy, #freedom{
+  border-right: solid 1px gray;
+  text-align: center;
+  color: #7c795d; 
+  font-family: 'Source Sans Pro', sans-serif; 
+  font-size: 15px; 
+  font-weight: 100;
 }
-
-#political {
-  border: solid 1px red;
+#disability{
+  text-align: center;
+  color: #7c795d; 
+  font-family: 'Source Sans Pro', sans-serif; 
+  font-size: 15px; 
+  font-weight: 100;
+}
+/* #political {
+  border-right: solid 1px gray;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  font-style: regular;
+  text-align: center;
 }
 
 #privacy {
-  border: solid 1px red;
+  border-right: solid 1px gray;
 }
 
 #freedom {
-  border: solid 1px red;
-}
+  border-right: solid 1px gray;
+} */
 
-#disability {
-  border: solid 1px red;
-}
+/* #disability {
+  border: solid 1px gray;
+} */
 /* #privacy-box{
   display: grid;
   grid-template-columns: 50% 50%;
@@ -46,25 +69,34 @@
 } */
 
 #equality-image{
-  height: 100%;
-  width: 95%;
+  height: 400px;
+  width: 600px;
+  padding:1px;
+ 
 }
 #privacy-image{
-  height: 100%;
-  width: 95%;
+  height: 400px;
+  width: 600px;
+  padding:1px;
 }
 #disability-image{
-  height: 100%;
-  width: 95%;
+  height: 480px;
+  width: 600px;
+  /* padding: 10px; */
+  padding:1px;
+
 }
 #freedom-image{
-  height: 100%;
-  width: 95%;
+  height: 430px;
+  width: 600px;
+  padding:1px;
+  /* border-right: 1px gray solid; */
 }
 
 .poli-image{
-  height: 100%;
-  width: 95%;
+  height: 400px;
+  width: 600px;
+  padding:1px;
 }
 
 .kev-title-politic{
@@ -75,3 +107,28 @@
   font-family: 'Lusitana', serif;
   font-size: large;
 }
+
+#disability-heading, #freedom-heading{
+ 
+  text-align: center; 
+  color: #7c795d; 
+  font-family: 'Source Sans Pro', sans-serif; 
+  font-size: 20px; 
+  font-weight: medium; margin: 10px;
+
+}
+#freedom-subheading, #disabiltiy-subheading{
+
+  font-size: 18px; 
+  font-weight: 300; 
+  color: #f3a813; 
+}
+
+#paragraph-1, #paragraph-2{
+ 
+   color: #4c4a37; 
+   font-family: 'Source Sans Pro', sans-serif; font-size: 18px; 
+}
+
+
+/* Reference : https://wdexplorer.com/20-examples-beautiful-css-typography-design/ */
